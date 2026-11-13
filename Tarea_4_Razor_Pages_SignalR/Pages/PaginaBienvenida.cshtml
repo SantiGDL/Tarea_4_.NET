@@ -1,0 +1,45 @@
+﻿@page
+@model Tarea_4_Razor_Pages_SignalR.Pages.PaginaBienvenida
+
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+
+    <title>Bienvenida</title>
+
+    <!-- Reutilizo los estilos del login -->
+    <link rel="stylesheet" href="~/css/Estilos.css" />
+</head>
+<body>
+
+<div class="bienvenida">
+
+    <div class="icono-verificacion">
+        ✓
+    </div>
+
+    <h1>¡Bienvenido!</h1>
+
+    <p>Tu cuenta fue verificada correctamente.</p>
+
+    <p>
+        El inicio de sesión se completó mediante
+        la verificación utilizando SignalR.
+    </p>
+
+    <a href="/" class="boton-volver">
+        Volver al inicio
+    </a>
+
+</div>
+
+</body>
+</html>

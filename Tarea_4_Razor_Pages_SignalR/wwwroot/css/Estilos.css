@@ -1,0 +1,140 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d1eeee, #f9dce3);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(50, 70, 90, 0.12);
+    width: 350px;
+    max-width: calc(100% - 60px);
+}
+
+h2 {
+    color: #354c62;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    color: #354c62;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c8dfe2;
+    border-radius: 8px;
+    background-color: #f6fafb;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #9bcdd1;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b9dadd;
+    color: #26434b;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+    background-color: #a4cdd1;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#verificationMessage {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #edf8f4;
+    color: #406b60;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#enlaceVerificacion {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#linkVerificar {
+    color: #7b65a3;
+    font-weight: bold;
+}
+
+
+
+/* Estilos de la página de bienvenida */
+
+.bienvenida {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(50, 70, 90, 0.12);
+    width: 400px;
+    max-width: calc(100% - 60px);
+    text-align: center;
+}
+
+.bienvenida h1 {
+    color: #354c62;
+    margin-bottom: 15px;
+}
+
+.bienvenida p {
+    color: #607789;
+    line-height: 1.6;
+}
+
+.icono-verificacion {
+    width: 65px;
+    height: 65px;
+    background-color: #d9f2e7;
+    color: #43876a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin: 0 auto 20px;
+}
+
+.boton-volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #b9dadd;
+    color: #26434b;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.boton-volver:hover {
+    background-color: #a4cdd1;
+}
